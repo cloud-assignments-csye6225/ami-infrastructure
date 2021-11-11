@@ -49,5 +49,5 @@ resource "aws_iam_policy" "ghactions-ec2-ami" {
 resource "aws_iam_policy_attachment" "gh-ec2-ami-policy-attachment" {
   name       = "gh-ec2-ami-policy-attachment"
   users      = ["ghactions-ami"]
-  policy_arn = aws_iam_policy.gh-ec2-ami.arn
+  policy_arn = aws_iam_policy.ghactions-ec2-ami.arn
 }
