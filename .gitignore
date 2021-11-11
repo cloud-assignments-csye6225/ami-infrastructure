@@ -30,3 +30,6 @@ override.tf.json
 
 #Ignoring the input variables terraform files
 terraform.tfvars
+
+# For ds_store mac format files
+.DS_Store
